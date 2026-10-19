@@ -1,7 +1,7 @@
 
 import pandas as pd
 from scipy.spatial.distance import cdist
-from functii_online import nan_replace_df
+from semianr_1.functii_online import nan_replace_df
 
 #1 incarcare
 data = pd.read_csv("winequality-red.csv", sep=";")
